@@ -1,5 +1,6 @@
 import React from 'react'
-import { Counter } from './components/Counter'
+import { HookCounter } from './components/HookCounter'
+// import { Counter } from './components/Counter'
 // import { BasicTypes } from './typescript/BasicTypes'
 // import { LiteralObjects } from './typescript/LiteralObjects'
 // import { Functions } from './typescript/Functions';
@@ -12,7 +13,8 @@ const App = () => {
       {/* <BasicTypes /> */}
       {/* <LiteralObjects /> */}
       {/* <Functions /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <HookCounter />
     </div>
   )
 }
